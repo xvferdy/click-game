@@ -1,0 +1,19 @@
+#shape {
+
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    position: relative;
+    color: firebrick;
+    border-radius: 50%;
+    /* top: 620px;
+    left: 620px; */
+}
+
+.container {
+    background-color: bisque;
+    width: 700px;
+    height: 700px;
+    margin: 2% auto;
+
+}
