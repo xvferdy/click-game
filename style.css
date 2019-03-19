@@ -10,6 +10,17 @@
     left: 620px; */
 }
 
+#shapeRec {
+
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    position: relative;
+    color: firebrick;
+    /* top: 620px;
+    left: 620px; */
+}
+
 .container {
     background-color: bisque;
     width: 700px;
