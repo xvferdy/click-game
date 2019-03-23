@@ -1,23 +1,11 @@
-#shape {
-
+#circle {
     width: 80px;
     height: 80px;
     background-color: red;
     position: relative;
     color: firebrick;
     border-radius: 50%;
-    /* top: 620px;
-    left: 620px; */
-}
-
-#shapeRec {
-
-    width: 80px;
-    height: 80px;
-    background-color: blue;
-    position: relative;
-    color: firebrick;
-    /* top: 620px;
+    /* top: 583px;
     left: 620px; */
 }
 
@@ -26,5 +14,5 @@
     width: 700px;
     height: 700px;
     margin: 2% auto;
-
+    font-family: cursive;
 }
