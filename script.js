@@ -1,9 +1,10 @@
-alert('Waktu kamu hanya 2 detik untuk masing-masing lingkaran dan kotak.\nJika sudah siap klik OK.');
+//saat halaman di load
+alert('Waktu kamu hanya 2 detik untuk masing-masing lingkaran.\nJika sudah siap klik OK.');
 
+//variabel global
 var circle = document.getElementById('circle');
-var rect = document.getElementById('rect');
 
-//variabel awal
+//nilai awal variabel gameover
 var start = new Date().getTime();
 
 function gameover() {
@@ -12,7 +13,7 @@ function gameover() {
 }
 var gameover = setTimeout(gameover, 2000);
 
-//ketika linkaran di klik
+//ketika lingkaran di klik, rubah posisi secara random
 function random(event) {
     let top = Math.floor(Math.random() * 583);
     let left = Math.floor(Math.random() * 620);
@@ -36,7 +37,8 @@ function ketWaktu() {
     }
 }
 
-//membuat waktu terbaru
+//membuat variabel waktu yang terbaru
+//membuat variabel gameover terbaru
 function muncul() {
     start = new Date().getTime();
 
@@ -47,9 +49,9 @@ function muncul() {
     gameover = setTimeout(gameover2, 2000);
 }
 
-//event
+//event lingkaran di klik
 circle.addEventListener('click', function () {
-    let circle = document.getElementById('circle');
+    // let circle = document.getElementById('circle');
     clearTimeout(gameover);
     random(circle);
 });

@@ -5,8 +5,14 @@
     position: relative;
     color: firebrick;
     border-radius: 50%;
-    /* top: 583px;
-    left: 620px; */
+    /* left: 620px;
+    top: 620px; */
+}
+
+.info {
+    left: 920px;
+    display: inline-block;
+    position: fixed
 }
 
 .container {
