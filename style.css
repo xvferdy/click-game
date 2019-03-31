@@ -5,6 +5,7 @@
     position: relative;
     color: firebrick;
     border-radius: 50%;
+    display: inline-block;
     /* left: 620px;
     top: 620px; */
 }
