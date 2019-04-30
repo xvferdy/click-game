@@ -22,3 +22,5 @@
 
 **Links:** 
 - _...See it live! <a href="https://xvferdy.github.io/click-game/" target="_blank">Here</a>_
+- _...Similar project: <a href="https://codepen.io/xvferdy/pen/RdMdRP" target="_blank">Click Reaction</a>_
+
