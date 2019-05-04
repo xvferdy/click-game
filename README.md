@@ -1,5 +1,5 @@
 # Click Game
-
+> :information_source: _This repo created only for study purpose_
 ## :round_pushpin:Table of contents
 - _[About The Project](#about-the-project)_
 
